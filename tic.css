@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://img.freepik.com/premium-photo/cybersport-abstract-background-scene-advertising-technology-showcase-banner-game-sport-cosmetic-business-metaverse-scifi-generative-ai_1423-9676.jpg?size=626&ext=jpg);
+  text-align: center;
+  font-family: sans-serif;
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 50px;
+  color: #ec4cd9;
+  font-style: oblique;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: #a00a80;
+  color: black;
+}
+
+#reset-btn {
+  background-color: #c2158b;
+  color: #f7f0f0;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.msg-container {
+  margin-top: 10px;
+}
+
+.msg-container .msg {
+  background-color: #b812a1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+#new-game {
+  background-color: #c721c2;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
